@@ -1,0 +1,3 @@
+[submodule "clients/windows/client/src/InputHelper"]
+	path = clients/windows/client/src/InputHelper
+	url = git@github.com:Visual-Vincent/InputHelper.git
