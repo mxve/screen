@@ -1,0 +1,11 @@
+.vscode
+node_modules
+package-lock.json
+logs/*.log
+upload/i/*.png
+upload/v/*.mp4
+upload/t/*.txt
+upload/thumbnail/*/*.png
+!upload/*/example.*
+!upload/*/*/example.*
+config.js

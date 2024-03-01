@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #18181a;
+    color: #e6e1dc;
+    font-family: 'Victor Mono', monospace;
+}
+
+a {
+    color: #00baff;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+p {
+    margin-top: 12px;
+}
+
+h1 {
+    margin-top: .4em;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.7em;
+}
+
+form {
+    margin-top: 2em;
+}
+
+input {
+    margin-bottom: 1.2em;
+    margin-top: 0.7em;
+    width: 330px;
+    color: #e6e1dc;
+    border: 2px solid #343438;
+    border-radius: 2px;
+    background-color: #262629;
+    padding: 2px;
+    height: 28px;
+    font-family: 'Victor Mono', monospace;
+}
+
+input[type=password] {
+    width: 322px;
+}
+
+input[type=file] {
+    width: 322px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    height: 36px;
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+    margin: auto;
+    margin-top: 1.5em;
+}
+
+.banner {
+    display: block;
+    border: 2px solid #343438;
+    background-color: #262629;
+    margin-top: 2em;
+}
+
+.banner .title {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.highlight {
+    color: #00ff66;
+}
+
+.logo {
+    width: 128px;
+    height: 128px;
+    display: block;
+    margin: auto;
+}
+
+.content {
+    margin: auto;
+    display: block;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.payload pre {
+    margin: auto;
+    margin-top: 3vh;
+    width: 90vw;
+    height: 80vh;
+    display: block;
+    color: rgb(200,200,200);
+}
+.raw-button {
+    color: #666666;
+    right: 5vw;
+    top: 1vh;
+    position: absolute;
+    font-size: 0.8em;
+}
+.payload code {
+    font-family: 'Victor Mono', monospace;
+    font-size: 0.8em;
+    height: 75vh;
+}
+.payload textarea {
+    height: 10vh;
+    width: calc(100% - 8px);
+    background-color: #2b2b2b;
+    color: #e6e1dc;
+    border-style: none;
+    padding: 4px;
+    display: block;
+}
+.payload video {
+    margin: auto;
+    padding: 5vh 5vw 5vh 5vw;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: block;
+}
+.payload video:fullscreen {
+    margin: auto;
+    padding: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    display: block;
+}
+.payload video::-webkit-media-controls-volume-slider {
+    display:none;
+}
+.payload video::-webkit-media-controls-mute-button {
+    display:none;
+}
+.payload img {
+    margin: auto;
+    padding: 5vh 5vw 5vh 5vw;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: block;
+}
